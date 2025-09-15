@@ -1,4 +1,4 @@
-# 🫁 Projeto Final - Lamia Bootcamp
+# Projeto Final - Lamia Bootcamp
 
 Este projeto foi desenvolvido como parte do **Lamia Bootcamp**, tendo como objetivo aplicar os conhecimentos adquiridos durante o curso em um desafio prático de **aprendizado de máquina e visão computacional**.  
 
@@ -25,7 +25,7 @@ A pneumonia é uma das principais causas de mortalidade em todo o mundo, afetand
 
 O diagnóstico **precoce e preciso** da doença é essencial para garantir um tratamento adequado e reduzir complicações futuras caso não seja tratado corretamente.  
 
-Com o avanço da **Inteligência Artificial**, foi possível desenvolver **CNNs** capazes de realizar esse trabalho, em muitos casos auxiliando — e até substituindo — o trabalho médico em triagens automatizadas.  
+Com o avanço da **Inteligência Artificial**, foi possível desenvolver **CNNs** capazes de realizar esse trabalho, em muitos casos auxiliando e até substituindo o trabalho médico em triagens automatizadas.  
 
 ---
 
@@ -52,8 +52,8 @@ Foi utilizada a base pública **Chest X-Ray Images (Pneumonia)**, disponível no
 
 A base contém imagens já divididas em **treino**, **validação** e **teste**, com duas classes:
 
-- **Pneumonia** 🫁  
-- **Normal** ✅  
+- **Pneumonia**   
+- **Normal**   
 
 ---
 
