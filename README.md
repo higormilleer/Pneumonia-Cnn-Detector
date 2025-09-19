@@ -60,6 +60,7 @@ A base contém imagens já divididas em **treino**, **validação** e **teste**,
   Rede neural convolucional construída do zero, com camadas de convolução, pooling, batch normalization e dropout.  
 
 ---
+
 ---
 
 ## 📊 Resultados
@@ -74,7 +75,7 @@ O relatório de classificação apresenta o desempenho em cada classe:
 - **Pneumonia (Class 0)**: alta precisão (0.94) e bom recall (0.85).  
 - **Normal (Class 1)**: desempenho equilibrado, com recall de 0.91, mostrando boa capacidade de identificar exames normais.  
 
-<img src="Resultado/classification_report.png" width="600"/>
+<img src="Resultados/classification_report.png" width="600"/>
 
 ---
 
@@ -86,7 +87,7 @@ A matriz de confusão permite visualizar os acertos e erros por classe:
 - 212 radiografias normais foram corretamente classificadas.  
 - Alguns falsos negativos e falsos positivos ocorreram, mas em baixa quantidade.  
 
-<img src="Resultado/confusion_matrix.png" width="500"/>
+<img src="Resultados/matriz de confusao.png" width="500"/>
 
 ---
 
@@ -95,7 +96,7 @@ A matriz de confusão permite visualizar os acertos e erros por classe:
 Para validar a robustez, foram utilizadas **10 imagens externas** (5 Pneumonia + 5 Normal), salvas na pasta `Imagens/`.  
 O modelo conseguiu distinguir corretamente a maioria dos casos, como mostrado no grid abaixo:  
 
-<img src="Resultado/grid_custom.png" width="900"/>
+<img src="Resultados/test.png" width="900"/>
 
 Legenda:  
 - **True** = classe real.  
@@ -109,3 +110,4 @@ Legenda:
 
 O modelo apresentou **87% de acurácia geral**, com bom equilíbrio entre as métricas de precisão e recall.  
 Apesar de alguns erros em casos limítrofes, os resultados indicam que a CNN pode ser utilizada como uma ferramenta auxiliar em triagens médicas, especialmente em cenários com grande volume de exames.
+
