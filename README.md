@@ -104,7 +104,7 @@ Legenda:
 
 ---
 
-## 📌 Conclusão
+## Conclusão
 
 O modelo apresentou **87% de acurácia geral**, com bom equilíbrio entre as métricas de precisão e recall.  
 Apesar de alguns erros em casos limítrofes, os resultados indicam que a CNN pode ser utilizada como uma ferramenta auxiliar em triagens médicas, especialmente em cenários com grande volume de exames.
