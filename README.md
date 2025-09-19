@@ -39,8 +39,7 @@ A abordagem combina **modelos criados do zero** com **modelos pré-treinados**, 
 ## Objetivos do Projeto
 
 - Pré-processamento e normalização das imagens.  
-- Construção de uma **CNN simples** feita do zero.  
-- Implementação e teste de arquiteturas pré-treinadas (**EfficientNetB0**).  
+- Construção de uma **CNN simples** feita do zero.   
 - Análise dos resultados por meio de métricas e visualizações.  
 
 ---
@@ -62,8 +61,6 @@ A base contém imagens já divididas em **treino**, **validação** e **teste**,
 - **CNN Baseline**  
   Rede neural convolucional construída do zero, com camadas de convolução, pooling, batch normalization e dropout.  
 
-- **EfficientNetB0**  
-  Arquitetura moderna pré-treinada no *ImageNet*, utilizada via *transfer learning* para acelerar o treinamento e melhorar a generalização.  
 
 ---
 
