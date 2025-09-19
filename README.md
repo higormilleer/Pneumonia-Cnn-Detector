@@ -1,4 +1,4 @@
-# 🩺 Projeto Final - Lamia Bootcamp  
+# Projeto Final - Lamia Bootcamp  
 
 Este projeto foi desenvolvido como parte do **Lamia Bootcamp**, tendo como objetivo aplicar os conhecimentos adquiridos durante o curso em um desafio prático de **aprendizado de máquina e visão computacional**.  
 
@@ -17,7 +17,7 @@ O foco foi **treinar, avaliar e comparar modelos de Deep Learning** para a **det
 
 ---
 
-## 📖 Introdução  
+## Introdução  
 
 A pneumonia é uma das principais causas de mortalidade em todo o mundo, afetando milhões de pessoas anualmente e representando um grande desafio para os sistemas de saúde, especialmente em países em desenvolvimento.  
 
@@ -27,14 +27,14 @@ Com o avanço da **Inteligência Artificial**, foi possível desenvolver **CNNs*
 
 ---
 
-## 🌍 Contexto  
+## Contexto  
 
 Este projeto aplica técnicas de visão computacional para a classificação de imagens de raio-X de tórax.  
 A abordagem combina **modelos criados do zero** com **modelos pré-treinados**, permitindo comparar simplicidade e desempenho.  
 
 ---
 
-## 🎯 Objetivos do Projeto  
+## Objetivos do Projeto  
 
 - Pré-processamento e normalização das imagens.  
 - Construção de uma **CNN simples** feita do zero.  
@@ -42,7 +42,7 @@ A abordagem combina **modelos criados do zero** com **modelos pré-treinados**, 
 
 ---
 
-## 🗂️ Base de Dados  
+## Base de Dados  
 
 Foi utilizada a base pública **Chest X-Ray Images (Pneumonia)**, disponível no Kaggle:  
 👉 [Chest X-Ray Pneumonia Dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)  
@@ -54,16 +54,14 @@ A base contém imagens já divididas em **treino**, **validação** e **teste**,
 
 ---
 
-## 🧠 Modelos Implementados  
+## Modelos Implementados  
 
 - **CNN Baseline**  
   Rede neural convolucional construída do zero, com camadas de convolução, pooling, batch normalization e dropout.  
 
 ---
 
----
-
-## 📊 Resultados
+## Resultados
 
 O modelo foi treinado e avaliado utilizando a base de dados **Chest X-Ray Pneumonia**.  
 Os principais resultados foram obtidos em termos de **accuracy**, **precision**, **recall** e **f1-score**.
@@ -75,7 +73,7 @@ O relatório de classificação apresenta o desempenho em cada classe:
 - **Pneumonia (Class 0)**: alta precisão (0.94) e bom recall (0.85).  
 - **Normal (Class 1)**: desempenho equilibrado, com recall de 0.91, mostrando boa capacidade de identificar exames normais.  
 
-<img src="Resultados/classification_report.png" width="600"/>
+<img src="Resultados/matriz.png" width="600"/>
 
 ---
 
