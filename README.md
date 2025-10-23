@@ -12,8 +12,6 @@ O foco foi **treinar, avaliar e comparar modelos de Deep Learning** para a **det
 - [Objetivos do Projeto](#objetivos-do-projeto)  
 - [Base de Dados](#base-de-dados)  
 - [Modelos Implementados](#modelos-implementados)  
-- [Instalação](#instalação)  
-- [Como Usar](#como-usar)  
 
 ---
 
